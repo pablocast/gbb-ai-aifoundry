@@ -64,4 +64,6 @@ The steps below will provision Azure resources, set up the environment and confi
     EVALUATION_MODEL="gpt-4o"
     ```
 
-##  Evaluate Custom Rag With Azure Ai Foundry Sdk
+##  Build Custom Rag With Azure AI Foundry SDK
+
+##  Evaluate Custom Rag With Azure AI Foundry SDK
