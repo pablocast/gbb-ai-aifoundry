@@ -8,13 +8,11 @@ In this tutorial, you use the Azure AI Foundry SDK (and other libraries) to buil
 * [Evaluate a custom chat application with the Azure AI Foundry SDK](#evaluate-custom-rag-with-azure-ai-foundry-sdk)
 
 ## Features
-* **UI interface**: The streamlit app to query the GraphRag Index .
-* **Graph RAG Indexing**: Using the [graphrag](https://github.com/microsoft/graphrag) python package, aligned with the [GraphRAG Knowledge Mode](https://microsoft.github.io/graphrag/index/architecture/)
-* **Graph RAG Retrieval**: Using the query engine from [graphrag](https://github.com/microsoft/graphrag) python package.
-* **Citations**: The app shows the search results that were used to generate the response.
-
-⚠️ *Warning: GraphRAG indexing can be an expensive operation, please start small.*
-
+In this tutorial you will:
+> - Create a search index of the data for the chat app to use
+> - Develop custom RAG code
+> - Evaluate the chat app with Azure AI evaluators
+All of this by using the [Azure AI Foundry SDK](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/develop/sdk-overview?tabs=sync&pivots=programming-language-python)
 
 ## Deploying the Environment
 
