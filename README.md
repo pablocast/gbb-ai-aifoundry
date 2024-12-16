@@ -14,6 +14,8 @@ In this tutorial you will:
 > - Evaluate the chat app with Azure AI evaluators
 All of this by using the [Azure AI Foundry SDK](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/develop/sdk-overview?tabs=sync&pivots=programming-language-python)
 
+
+
 ## Deploying the Environment
 
 1. Install the required tools:
@@ -63,5 +65,12 @@ The steps below will provision Azure resources, set up the environment and confi
     ```
 
 ##  Build Custom Rag With Azure AI Foundry SDK
-
+To try the custom chat application:
+```bash
+python src/backend/chat_with_products.py --query "I need a new tent for 4 people, what would you recommend?"
+```
 ##  Evaluate Custom Rag With Azure AI Foundry SDK
+To evaluate the custom chat application:
+```bash
+python src/evaluation/evaluate.py
+```
